@@ -484,3 +484,13 @@ build-iPhoneSimulator/
 .history
 
 # End of https://www.gitignore.io/api/node,ruby,python,reactnative,jupyternotebook,visualstudiocode
+
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
